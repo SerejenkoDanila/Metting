@@ -1,0 +1,475 @@
+html, body {
+	margin: 0 auto;
+	padding: 0;
+    min-width: 1400px;
+    margin: 0 auto;
+    font-family: 'Inter', sans-serif;
+    color: #18216D;
+    }
+
+a {
+    text-decoration: none;
+    color: #18216D;
+}
+
+/*   Header   */
+
+#header {
+    width: 1400px;
+    margin: 25px auto 0;
+    padding: 0;
+    overflow: hidden;
+}
+
+#logoname {
+    margin: 10px 0;
+    float: left;
+}
+
+#logo {
+    float: left;
+}
+
+#name {
+    font-weight: 600;
+    font-size: 20px;
+    line-height: 20px;
+    float: left;
+    margin: 6px 0 0 7px;
+}
+
+#header-menu {
+    float: left;
+    margin: auto 0 auto 110px;
+}
+
+#menu {
+    margin: 16px 0;
+    padding: 0;
+    font-weight: 500;
+    font-size: 18px;
+    line-height: 20px;
+}
+
+#menu li{
+    display: inline;   
+}
+
+#feature {
+    margin: 0 53px;
+}
+
+#solution {
+    margin: 0 53px;
+}
+
+#signin {
+    float: left;
+    margin: 16px 0 16px 430px;
+    font-weight: 500;
+    font-size: 18px;
+    line-height: 20px;
+}
+
+#download {
+    float: left;
+    background: #18216D;
+    border-radius: 6px;
+    font-weight: 500;
+    font-size: 17px;
+    line-height: 20px;
+    color: #FFFFFF;
+    border: none;
+    width: 136px;
+    height: 52px;
+    margin-left: 43px;
+}
+
+/*   Main   */
+
+#main {
+    margin: 50px auto 0;
+    width: 1400px;
+}
+
+#pres {
+    background-image: url('img/picture.svg');
+    background-repeat: no-repeat;
+    background-position-x: 402px;
+    overflow: hidden;
+    margin-left: 115px;
+    height: 519px;
+}
+
+#presh {
+    font-weight: 600;
+    font-size: 48px;
+    line-height: 60px;
+    margin-top: 95px;
+    width: 498px;
+}
+
+#presm {
+    font-size: 17px;
+    line-height: 28px;
+    margin-top: 16px;
+    width: 484px;
+}
+
+#startforfree {
+    background: #00ECD0;
+    border-radius: 6px;
+    font-weight: 500;
+    font-size: 17px;
+    line-height: 21px;
+    border: none;
+    width: 180px;
+    height: 66px;
+    margin-top: 34px;
+}
+
+#feedback {
+    margin: 122px 0 0 115px;
+    overflow: hidden;
+}
+
+#collab {
+    font-weight: 600;
+    font-size: 36px;
+    line-height: 50px;
+    float: left;
+    width: 494px;
+}
+
+#rating1 {
+    float: left;
+    margin-left: 277px;
+}
+
+#downloads {
+    font-weight: bold;
+    font-size: 60px;
+    line-height: 70px;
+    letter-spacing: -1px;
+}
+
+#hearts {
+    margin-top: 10px; 
+    overflow: hidden;
+}
+
+#heart1 {float: left;}
+#heart2 {margin: 0 5px; float: left;}
+#heart3 {float: left;}
+#heart4 {margin: 0 5px; float: left;}
+#heart5 {float: left;}
+
+#ndownloads {
+    margin-top: 12px;
+    font-size: 16px;
+    line-height: 28px;
+}
+
+#downloads2 {
+    display: none;
+}
+
+#rating2 {
+    float: left;
+    margin-left: 93px;
+}
+
+#to5 {
+    font-weight: bold;
+    font-size: 60px;
+    line-height: 70px;
+    letter-spacing: -1px;
+}
+
+#stars {
+    margin-top: 8px; overflow: hidden;
+}
+
+#star1 {float: left;}
+#star2 {margin: 0 6px; float: left;}
+#star3 {float: left;}
+#star4 {margin: 0 6px; float: left;}
+#star5 {float: left;}
+
+#nrating {
+    margin-top: 12px;
+    font-size: 16px;
+    line-height: 28px;
+}
+
+#to52 {
+    display: none;
+}
+
+#media {
+    overflow: hidden;
+}
+
+#media2 {
+    display: none;
+}
+
+#airbnb {
+    float: left; 
+    margin: 50px 0 0 145px;
+}
+
+.medias {
+    float: left; 
+    margin: 50px 0 0 80px;
+}
+
+#features {
+    overflow: hidden;
+}
+
+#hfeatures {
+    margin: 130px 0 0 469px;
+    font-weight: 600;
+    font-size: 48px;
+    line-height: 64px;
+    letter-spacing: -1px;
+    text-transform: capitalize;
+}
+
+#tfeatures {
+    margin: 12px 0 0 429px;
+    font-size: 16px;
+    line-height: 30px;
+    text-align: center;
+    width: 542px;
+}
+
+#tfeatures2 {
+    display: none;
+}
+
+#other {
+    margin: 48px 0;
+    overflow: hidden;
+    padding-left: 35px;
+}
+
+.bother {
+    margin-left: 80px;
+    float: left;
+}
+
+.iother {
+    display: block;
+}
+
+.hother {
+    margin-top: 28px;
+    font-weight: 600;
+    font-size: 24px;
+    line-height: 29px;
+}
+
+.tother {
+    margin-top: 14px;
+    font-size: 16px;
+    line-height: 26px;
+    opacity: 0.6;
+}
+
+.learnmore {
+    margin-top: 30px;
+    font-weight: 500;
+    font-size: 20px;
+    line-height: 24px;
+}
+
+#logo2 {
+    float: left;
+    display: none;
+}
+
+#shortmenu {
+    display: none;
+}
+
+@media (max-width: 720px) {
+
+    html, body {
+        min-width: 360px;
+    }
+
+    #header {
+        margin: 12px auto 0;
+        width: 360px;
+    }
+
+    #logoname {
+        display: none;
+    }
+
+    #logo2 {
+        display: block;
+        margin-left: 8px;
+    }
+
+    #shortmenu {
+        display: block;
+        float: left;
+        margin: 4px 0 0 232px;
+    }
+
+    #main {
+        width: 360px;
+        margin: 0 auto;
+    }
+
+    #header-menu {
+        display: none;
+    }
+
+    #signin {
+        display: none;
+    }
+
+    #download {
+        display: none;
+    }
+
+    #pres {
+        margin: 0;
+        background-image: url('img/picture2.svg');
+        background-repeat: no-repeat;
+        background-position: bottom;
+        background-size: ;
+        height: 585px;
+    }
+
+    #presh {
+        font-weight: 600;
+        font-size: 28px;
+        line-height: 27px;
+        text-align: center;
+        margin: 41px 0 0 34px;
+        width: 291px;
+    }
+
+    #presm {
+        font-size: 14px;
+        line-height: 20px;
+        text-align: center;
+        margin: 20px 0 0 40px;
+        width: 280px;
+    }
+
+    #startforfree {
+        width: 120px;
+        height: 40px;
+        font-weight: normal;
+        font-size: 14px;
+        line-height: 17px;
+        margin: 33px 0 0 120px;
+    }
+
+    #feedback {
+        margin: 59px 0 0;
+    }
+
+    #collab {
+        font-weight: 600;
+        font-size: 20px;
+        line-height: 30px;
+        width: 330px;
+        margin-left: 16px;
+    }
+
+    #rating1 {
+        display: none;
+    }
+
+    #downloads2 {
+        display: block;
+        margin: 22px 0 0 88px;
+        float: left;
+    }
+
+    #rating2 {
+        display: none;
+    }
+
+    #to52 {
+        display: block;
+        margin: 22px 0 0 76px;
+        float: left;
+    }
+
+    #media {
+        display: none;
+    }
+
+    #media2 {
+        overflow: hidden;
+        display: block;
+        margin: 22px 0 0 14px;
+    }
+
+    #airbnb2 {
+        float: left;
+    }
+
+    .medias2 {
+        float: left;
+        margin-left: 37px;
+    }
+
+    #hfeatures {
+        font-size: 24px;
+        line-height: 24px;
+        margin: 50px 0 0 69px;
+    }
+
+    #tfeatures {
+        display: none;
+    }
+
+    #tfeatures2 {
+        display: block;
+        font-size: 14px;
+        line-height: 20px;
+        text-align: center;
+        letter-spacing: -0.02em;
+        opacity: 0.5;
+        width: 335px;
+        margin: 12px 0 0 12px;
+    }
+
+    #other {
+        padding: 0;
+        margin: 40px 0 0 22px;
+    }
+
+    .bother {
+        margin: 0 0 48px 0;
+    }
+
+    .iother {
+        height: 48px;
+    }
+
+    .hother {
+        margin-top: 20px;
+        font-size: 20px;
+        line-height: 24px;
+    }
+
+    .tother {
+        margin-top: 12px;
+        font-size: 14px;
+        line-height: 24px;
+    }
+
+    .learnmore {
+        margin-top: 20px;
+    }
+}
